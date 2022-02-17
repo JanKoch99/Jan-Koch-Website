@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-user-list',
   template: `
     <p>
-      user-list works!
+      This is still in progress!
     </p>
   `,
   styles: [
