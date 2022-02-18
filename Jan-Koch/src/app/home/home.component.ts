@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
                       
                       <p class="py-4">
                           Auf dieser Website möchte ich mein Leben aufzeigen. Was ich alles schon erlebt habe,
-                          womit ich mich im Moment beschäftige und was die Zukunft für mich bringt. Zudem werde ich 
+                          womit ich mich im Moment beschäftige und wie ich mir meine Zukunft erhoffe. Zudem werde ich 
                           diese Website andauernd verbessern und werde versuchen neue Eigenschaften hinzuzufügen.
                       </p>
                   </div>
@@ -52,6 +52,7 @@ import { Component, OnInit } from '@angular/core';
                   </div>
               </div>
               
+              <!-- Zukunft -->
               <div class="columns mt-4">
                   <div class="column is-4">
                       <div class="card">
@@ -59,33 +60,42 @@ import { Component, OnInit } from '@angular/core';
                               <div class="content">
                                   <p class="subtitle">Zukunft</p>
                                   <p>
-                                      Hier steht was über meine Zukunft.
+                                      Mein Wunsch ist es Fuss zu fassen in der Informatikbranche, bei welcher ich einen spannenden
+                                      Beruf ausführen kann, mein Leben selbstständig gestalten zu dürfen und viele nette
+                                      Menschen kennen zu lernen.
                                   </p>
                                   <a href="/">Weiterlesen</a>
                               </div>
                           </div>
                       </div>
                   </div>
+                  
+                  <!-- Gegenwart -->
                   <div class="column is-4">
                       <div class="card">
                           <div class="card-content">
                               <div class="content">
                                   <p class="subtitle">Gegenwart</p>
                                   <p>
-                                      Hier steht was über meine Gegenwart.
+                                      Im Moment bin ich an der Universität Bern am studieren, arbeite nebenbei als Schwimmlehrer
+                                      und erkunde mit meinem Motorrad die wunderschöne Schweiz.
                                   </p>
                                   <a href="/">Weiterlesen</a>
                               </div>
                           </div>
                       </div>
                   </div>
+                  
+                  <!-- Vergangenheit -->
                   <div class="column is-4">
                       <div class="card">
                           <div class="card-content">
                               <div class="content">
                                   <p class="subtitle">Vergangenheit</p>
                                   <p>
-                                      Hier steht was über meine Vergangenheit.
+                                      Als kleines Kind musste ich gegen eine furchtbare Krankheit kämpfen, als Teenager konnte
+                                      ich erfolgreich das Gymnasium abschliessen und als junger erwachsener konnte ich mir mein
+                                      Traum vom eigenen Motorrad erfüllen.
                                   </p>
                                   <a href="/">Weiterlesen</a>
                               </div>
