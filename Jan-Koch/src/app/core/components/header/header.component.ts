@@ -24,18 +24,18 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
           
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
-              More
+              Mein Leben
             </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item">
-                About
+              <a class="navbar-item" routerLink="/future">
+                Zukunft
               </a>
-              <a class="navbar-item">
-                Jobs
+              <a class="navbar-item" routerLink="/presence">
+                Gegenwart
               </a>
-              <a class="navbar-item">
-                Contact
+              <a class="navbar-item" routerLink="/past">
+                Vergangenheit
               </a>
               <hr class="navbar-divider">
               <a class="navbar-item">

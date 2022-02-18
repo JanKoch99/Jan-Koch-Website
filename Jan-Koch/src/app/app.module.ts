@@ -6,12 +6,18 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import {FormsModule} from "@angular/forms";
 import {CoreModule} from "./core/core.module";
+import { FutureComponent } from './future/future.component';
+import { PresenceComponent } from './presence/presence.component';
+import { PastComponent } from './past/past.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    FutureComponent,
+    PresenceComponent,
+    PastComponent
   ],
   imports: [
     BrowserModule,
