@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
       
       <!-- Hero with title -->
-    <section class="hero is-primary is-bold is-medium">
+    <section class="hero is-primary is-bold is-medium is-info">
       <div class="hero-body has-text-centered">
         <div class="container has-text-centered">
           <h1 class="title is-size-2 has-text-weight-semibold shadow">
@@ -64,7 +64,7 @@ import { Component, OnInit } from '@angular/core';
                                       Beruf ausführen kann, mein Leben selbstständig gestalten zu dürfen und viele nette
                                       Menschen kennen zu lernen.
                                   </p>
-                                  <a href="/">Weiterlesen</a>
+                                  <a href="/future">Weiterlesen</a>
                               </div>
                           </div>
                       </div>
@@ -80,7 +80,7 @@ import { Component, OnInit } from '@angular/core';
                                       Im Moment bin ich an der Universität Bern am studieren, arbeite nebenbei als Schwimmlehrer
                                       und erkunde mit meinem Motorrad die wunderschöne Schweiz.
                                   </p>
-                                  <a href="/">Weiterlesen</a>
+                                  <a href="/presence">Weiterlesen</a>
                               </div>
                           </div>
                       </div>
@@ -97,7 +97,7 @@ import { Component, OnInit } from '@angular/core';
                                       ich erfolgreich das Gymnasium abschliessen und als junger erwachsener konnte ich mir mein
                                       Traum vom eigenen Motorrad erfüllen.
                                   </p>
-                                  <a href="/">Weiterlesen</a>
+                                  <a href="/past">Weiterlesen</a>
                               </div>
                           </div>
                       </div>
