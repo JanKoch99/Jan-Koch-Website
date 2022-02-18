@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,14 +9,41 @@ import { Component, OnInit } from '@angular/core';
         <a class="navbar-item" routerLink="/">
           <img src="assets/img/Jan_Face.png">
         </a>
+        <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
       </div>
       
       <!-- Menu -->
-      <div class="navbar-menu">
+      <div class="navbar-menu" #navMenu>
         <div class="navbar-start">
           <a class="navbar-item" routerLink="/">Home</a>
           <a class="navbar-item" routerLink="/contact">Contact</a>
-          <a class="navbar-item" routerLink="/users">Users</a>
+          
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
       
@@ -26,10 +53,20 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class HeaderComponent implements OnInit {
+  @ViewChild('navBurger') navBurger!: ElementRef;
+  @ViewChild('navMenu') navMenu!: ElementRef;
+
+  toggleNavbar() {
+    this.navBurger.nativeElement.classList.toggle('is-active');
+    this.navMenu.nativeElement.classList.toggle('is-active');
+  }
+
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
 
 }
