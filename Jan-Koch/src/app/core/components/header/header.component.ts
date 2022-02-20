@@ -20,7 +20,7 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
       <div class="navbar-menu" #navMenu>
         <div class="navbar-start">
           <a class="navbar-item" routerLink="/">Home</a>
-          <a class="navbar-item" routerLink="/contact">Contact</a>
+          <a class="navbar-item" routerLink="/contact">Kontaktiere mich</a>
           
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
@@ -39,7 +39,7 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
               </a>
               <hr class="navbar-divider">
               <a class="navbar-item">
-                Report an issue
+                Melde ein Problem
               </a>
             </div>
           </div>

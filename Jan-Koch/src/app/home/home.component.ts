@@ -4,18 +4,6 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
       
-      <!-- Hero with title -->
-    <section class="hero is-primary is-bold is-medium is-info">
-      <div class="hero-body has-text-centered">
-        <div class="container has-text-centered">
-          <h1 class="title is-size-2 has-text-weight-semibold shadow">
-            Jans Homepage
-          </h1>
-        </div>
-      </div>
-    </section>
-      
-      
       <!-- Introduction -->
       
       <section class="section">
@@ -105,6 +93,30 @@ import { Component, OnInit } from '@angular/core';
               </div>
               
           </div>
+      </div>
+      
+      <!-- How and why did I do this Website-->
+      
+      <div class="section">
+          <div class="container">
+              <div class="columns is-centered">
+                  <div class="column has-text-centered">
+                      <h2 class="is-size-2">Erstellung dieser Website</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="container has-text-centered">
+              <p>
+                  Alles begann damit, dass mein Vater die Website, welche er für mich erstellt hat, vom Netz nehmen wollte.
+                  Ich begann mich zu informieren wie schwierig es ist, eine solche von Grund auf selbst zu erstellen. Da es nach sehr viel
+                  Arbeit aussah, verschob ich dieses Projekt auf unbekannte Zeit, da ich frisch mit dem Studium begann und nicht viel Zeit
+                  für solche Sachen hatte. Per Zufall mussten wir dann an der Universität selbst eine Website programmieren. Als diese fertig war, 
+                  nutze ich mein neu erlangtes Wissen, um dieses Projekt zu beginnen.
+              </p>
+              <a href="/project-website">Weiterlesen</a>
+          </div>
+         
+          
       </div>
       
       <!-- Fun stuff -->
