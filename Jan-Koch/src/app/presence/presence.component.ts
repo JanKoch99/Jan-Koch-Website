@@ -25,7 +25,10 @@ import { Component, OnInit } from '@angular/core';
             </h3>
             
             <p class="py-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              An der Universität Bern habe ich 2021 mit meinem Studiengang "<em>Bachelor of Science in Computer Science</em>"
+              begonnen. Das Hauptfach Informatik bereitet mir mit abstand am meisten Freude, da ich mich ausleben kann 
+              und mir sehr viel Wissen aneignen kann. Meine Nebenfächer sind Wirtschaft und Mathematik. Mit diesen beiden bin 
+              ich sehr zufrieden, obwohl die Mathematik sehr herausfordernd ist und ich dort viel Zeit und Geduld investieren muss.
             </p>
           </div>
           
@@ -42,7 +45,7 @@ import { Component, OnInit } from '@angular/core';
         <!-- Schimmlehrer -->
         <div class="columns is-vcentered">
           <div class="column is-4 is-hidden-mobile">
-              <img src="/assets/img/placeholder/placeholder.png">
+              <img src="/assets/img/Jan_Schwimmen.png">
 
             
           </div>
@@ -56,7 +59,11 @@ import { Component, OnInit } from '@angular/core';
               Schwimmlehrer
             </h3>
             <p class="py-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Schon als ich klein war liebte ich das Wasser. In Willisau lernte ich dann das Schwimmen und war begeistert. 
+              Ich begann einmal in der Woche zu trainieren. Dies reichte mir jedoch nicht und ich trat dem 
+              <a class="has-text-black" href="https://www.svsempachersee.ch/">Schwimmverein Sempachersee</a> bei. Bei diesem 
+              durfte ich dem Wettkampfteam beitreten und einige Jahre später wurde ich als Schwimmlehrer ausgebildet. Ich liebe 
+              diesen Job, da ich mein Wissen weitergeben kann und immer wieder neue und herausfordernde Probleme lösen muss.
             </p>
           </div>
 
@@ -65,7 +72,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <div class="column is-4 is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only is-hidden-fullhd-only">
-            <img src="/assets/img/placeholder/placeholder.png">
+            <img src="/assets/img/Jan_Schwimmen.png">
           </div>
           
         </div>
@@ -78,7 +85,10 @@ import { Component, OnInit } from '@angular/core';
             </h3>
 
             <p class="py-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Meine grösste Leidenschaft gilt dem Motorradfahren. Dieses einzigartige Hobby habe ich leider erst in den letzten paar Jahren 
+              entdeckt, jedoch bin ich seit dieser Entdeckung immer auf dem Motorrad anzutreffen, wenn es das Wetter erlaubt. Da ich meine 
+              Yamaha MT-07 wirklich mein Eigen machen wollte, habe ich sie modifiziert und ein wenig umgebaut, so dass sie meinen Wünschen 
+              entspricht.
             </p>
           </div>
 
