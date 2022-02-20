@@ -55,6 +55,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/bulma/css/bulma.css",
               "src/styles.scss"
             ],
