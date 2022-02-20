@@ -5,6 +5,7 @@ import {ContactComponent} from "./contact/contact.component";
 import {FutureComponent} from "./future/future.component";
 import {PresenceComponent} from "./presence/presence.component";
 import {PastComponent} from "./past/past.component";
+import {BootstrapTestComponent} from "./bootstrap-test/bootstrap-test.component";
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
     path: 'past',
     component: PastComponent
   },
+  {
+    path: 'bootstrap',
+    component: BootstrapTestComponent
+  }
 
 ];
 

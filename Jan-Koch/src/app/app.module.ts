@@ -9,6 +9,7 @@ import {CoreModule} from "./core/core.module";
 import { FutureComponent } from './future/future.component';
 import { PresenceComponent } from './presence/presence.component';
 import { PastComponent } from './past/past.component';
+import { BootstrapTestComponent } from './bootstrap-test/bootstrap-test.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PastComponent } from './past/past.component';
     ContactComponent,
     FutureComponent,
     PresenceComponent,
-    PastComponent
+    PastComponent,
+    BootstrapTestComponent
   ],
   imports: [
     BrowserModule,
