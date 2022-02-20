@@ -19,8 +19,8 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
       <!-- Menu -->
       <div class="navbar-menu" #navMenu>
         <div class="navbar-start">
+          
           <a class="navbar-item" routerLink="/">Home</a>
-          <a class="navbar-item" routerLink="/contact">Kontaktiere mich</a>
           
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
@@ -43,6 +43,8 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
               </a>
             </div>
           </div>
+
+          <a class="navbar-item" routerLink="/contact">Kontaktiere mich</a>
 
         </div>
       </div>

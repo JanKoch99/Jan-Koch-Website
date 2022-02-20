@@ -81,9 +81,9 @@ import { Component, OnInit } from '@angular/core';
                               <div class="content">
                                   <p class="subtitle">Vergangenheit</p>
                                   <p>
-                                      Als kleines Kind musste ich gegen eine furchtbare Krankheit kämpfen, als Teenager konnte
-                                      ich erfolgreich das Gymnasium abschliessen und als junger erwachsener konnte ich mir mein
-                                      Traum vom eigenen Motorrad erfüllen.
+                                      Als kleines Kind musste ich gegen eine furchtbare Krankheit kämpfen, als ich ein bisschen älter war, 
+                                      versuchte ich mich beim Mountainbiken und als Teenager konnte
+                                      ich erfolgreich das Gymnasium abschliessen.
                                   </p>
                                   <a href="/past">Weiterlesen</a>
                               </div>

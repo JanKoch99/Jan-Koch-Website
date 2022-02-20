@@ -3,13 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-presence',
   template: `
-    <!-- Hero with title -->
-    <section class="hero is-primary is-bold is-medium is-info">
-      <div class="hero-body has-text-centered">
-        <div class="container has-text-centered">
-          <h1 class="title is-size-2 has-text-weight-semibold shadow">
-            Gegenwart
-          </h1>
+
+    
+    <section class="section">
+      <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+              <h1 class="is-size-1">
+                Gegenwart
+              </h1>
+            </div>
         </div>
       </div>
     </section>
