@@ -6,6 +6,7 @@ import {FutureComponent} from "./future/future.component";
 import {PresenceComponent} from "./presence/presence.component";
 import {PastComponent} from "./past/past.component";
 import {ProjectWebsiteComponent} from "./project-website/project-website.component";
+import {ReportComponent} from "./report/report.component";
 
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'project-website',
     component: ProjectWebsiteComponent
+  },
+  {
+    path: 'report',
+    component: ReportComponent
   }
 
 ];

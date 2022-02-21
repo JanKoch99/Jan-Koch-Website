@@ -10,6 +10,7 @@ import { FutureComponent } from './future/future.component';
 import { PresenceComponent } from './presence/presence.component';
 import { PastComponent } from './past/past.component';
 import { ProjectWebsiteComponent } from './project-website/project-website.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProjectWebsiteComponent } from './project-website/project-website.compo
     FutureComponent,
     PresenceComponent,
     PastComponent,
-    ProjectWebsiteComponent
+    ProjectWebsiteComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,

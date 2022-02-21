@@ -62,7 +62,7 @@ import { Component, OnInit } from '@angular/core';
               Schwimmlehrer
             </h3>
             <p class="py-4">
-              Schon als ich klein war liebte ich das Wasser. In Willisau lernte ich dann das Schwimmen und war begeistert. 
+              Schon als ich klein war, liebte ich das Wasser. In Willisau lernte ich dann das Schwimmen und war begeistert. 
               Ich begann einmal in der Woche zu trainieren. Dies reichte mir jedoch nicht und ich trat dem 
               <a class="has-text-black" href="https://www.svsempachersee.ch/">Schwimmverein Sempachersee</a> bei. Bei diesem 
               durfte ich dem Wettkampfteam beitreten und einige Jahre später wurde ich als Schwimmlehrer ausgebildet. Ich liebe 

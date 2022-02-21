@@ -12,8 +12,17 @@ import { Component, OnInit } from '@angular/core';
             </h1>
           </div>
         </div>
+        <div class="columns is-vcentered">
+          <div class="column is-4"></div>
+          <div class="column is-4">
+            <progress class="progress is-medium is-dark" max="100" ></progress>
+          </div>
+          <div class="column is-4"></div>
+        </div>
       </div>
     </section>
+
+    
   `,
   styles: [
   ]

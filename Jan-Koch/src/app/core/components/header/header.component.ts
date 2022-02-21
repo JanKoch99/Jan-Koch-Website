@@ -37,14 +37,24 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
               <a class="navbar-item" routerLink="/past">
                 Vergangenheit
               </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Kontakt
+            </a>
+            
+            <div class="navbar-dropdown">
+              <a class="navbar-item" routerLink="/contact">
+                Kontaktiere mich
+              </a>
               <hr class="navbar-divider">
-              <a class="navbar-item">
+              <a class="navbar-item" routerLink="/report">
                 Melde ein Problem
               </a>
             </div>
           </div>
-
-          <a class="navbar-item" routerLink="/contact">Kontaktiere mich</a>
 
         </div>
       </div>
