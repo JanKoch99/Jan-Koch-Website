@@ -27,7 +27,9 @@ import { Component, OnInit } from '@angular/core';
                 <div class="content">
                   <p class="subtitle">Der Start</p>
                   <p>
-                    Aller Anfang ist schwer.
+                    Zuerst dachte ich, dass ich die Website <a href="https://jankoch.netlify.app/index.htm" class="has-text-black">meines Vaters</a> nachbauen möchte, jedoch einfach ein bisschen moderner 
+                    und mit mehr features. Diese Idee habe ich jedoch nach kurzer Zeit verworfen, da dies nicht mein aktuelles Leben wiederspiegeln und mich 
+                    in diesem Projekt einschränken würde.
                   </p>
                 </div>
               </div>
@@ -41,7 +43,8 @@ import { Component, OnInit } from '@angular/core';
                   <div class="content">
                     <p class="subtitle">Die Formatierung</p>
                     <p>
-                      Jede Formatierung ist schwer.
+                      Bei der Formatierung arbeite ich mit dem Framework <a href="" class="has-text-black">Bulma</a>, da es ein sehr 
+                      einfaches und intuitives Framework ist.
                     </p>
                   </div>
                 </div>
